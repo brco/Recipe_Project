@@ -9,7 +9,7 @@ $(document).ready(function() {
 		$(this).css("text-decoration", "line-through");
 		$(this).fadeTo("fast", 0.25);
 	});
-	$('.toggle').click(function() {
-		$('img').toggle();
+	$('#toggle').click(function() {
+		$('.imgtog').toggle();
 	});
 });
